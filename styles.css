@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #f1c40f;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+  border-bottom: 2px solid #333;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #f1c40f;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+
+
+.hero {
+  background: url('https://images.pexels.com/photos/3992870/pexels-photo-3992870.jpeg') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f1c40f;
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  border-radius: 10px;
+  border: 1px solid #f1c40f;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color: #f1c40f;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #e1b700;
+}
+
+.section {
+  padding: 4rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  color: #f1c40f;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 2rem;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border: 1px solid #333;
+}
+
+.card h3 {
+  color: #f1c40f;
+  margin-bottom: 0.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #262626;
+}
+
+.about p {
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.about .quote {
+  font-style: italic;
+  color: #999;
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: #f1c40f;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1a1a1a;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #444;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-content img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
